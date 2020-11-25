@@ -63,7 +63,15 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
-@media (perfers-color-sheme: dark) {
+@media (perfers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (perfers-color-scheme: dark) {
 
   .banner {
     background-color: #c2c2c2;
@@ -71,14 +79,6 @@ html {
 
   .banner h1 {
     color: #e2e2e2;
-  }
-
-}
-
-@media (perfers-reduced-motion) {
-
-  .gear {
-    animation: none;
   }
 
 }
