@@ -63,7 +63,7 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
-@media (perfers-reduced-motion) {
+@media (prefers-reduced-motion) {
 
   .gear {
     animation: none;
@@ -71,7 +71,7 @@ html {
 
 }
 
-@media (perfers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
   .banner {
     background-color: #c2c2c2;
